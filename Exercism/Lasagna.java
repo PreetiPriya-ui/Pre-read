@@ -19,5 +19,12 @@ public class Lasagna {
     {
         return this.preparationTimeInMinutes(layers)+minutes;
     }
+    
+    public static void main(String [] args)
+    {
+        Lasagna lasagna = new Lasagna();
+        System.out.println(lasagna.totalTimeInMinutes(3,20));
+
+    }
 
 }
